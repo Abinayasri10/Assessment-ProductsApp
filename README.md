@@ -65,3 +65,45 @@ A professional React Native e-commerce application built with Expo, featuring us
 
 ## Project Structure
 
+Assessment/
+├── components/ # Reusable UI components
+├── screens/ # Main application screens
+├── assets/ # Images and fonts
+├── App.js # Root component and navigation
+├── package.json # Dependencies
+└── README.md # Project documentation
+
+# Installation & Setup
+
+### Clone the repository
+```bash
+git clone <repository-url>
+cd Assessment
+Install dependencies
+npm install
+
+Start the development server
+npx expo start
+
+Run on device or emulator
+Mobile device: Use Expo Go and scan the QR code
+
+Android emulator:
+
+npx expo start --android
+iOS simulator:
+
+npx expo start --ios
+
+```
+
+### Key Functionalities
+Product Search: Real-time filtering by name and category
+
+Add to Cart & Favorites: Persistent storage with AsyncStorage
+
+Cart Calculations: Subtotal, tax, shipping, total
+
+Category Filtering: Dynamic tabs and product display
+
+Animations: Smooth button press and screen transitions
